@@ -1,0 +1,27 @@
+{
+  "name": "triniti-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "lab",
+    "watch": "fsmonitor -s -p '+*.js' npm test",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "@hapi/code": "^9.0.3",
+    "@hapi/lab": "^25.1.2",
+    "fsmonitor": "^0.2.4",
+    "nodemon": "^2.0.22"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "description": ""
+}
