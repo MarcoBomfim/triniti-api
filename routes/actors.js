@@ -6,7 +6,7 @@ const actorsRoutes = (db) => [
 		path: '/actors',
 		handler: async (request, h) => {
 			return new Promise((resolve, reject) => {
-				db.all('SELECT * FROM actors LIMIT 25', (err, rows) => {
+				db.all('SELECT * FROM actors LIMIT 10', (err, rows) => {
 					if (err) {
 						reject(err);
 					} else {
