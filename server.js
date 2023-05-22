@@ -6,7 +6,7 @@ const seedMovies = require('./db/seed-movies');
 // Create a new Hapi server
 const server = Hapi.server({
 	port: 3001,
-	host: 'localhost',
+	host: '0.0.0.0',
 	routes: {
 		cors: {
 			origin: ["*"]

@@ -6,7 +6,7 @@
     "dev": "nodemon index.js",
     "test": "lab",
     "watch": "fsmonitor -s -p '+*.js' npm test",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
